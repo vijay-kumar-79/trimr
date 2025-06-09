@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "URL Shortener",
+  "version": "1.0",
+  "description": "A simple URL shortening extension",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/favicon.ico"
+  },
+  "icons": {
+    "16": "icons/favicon.ico",
+    "32": "icons/favicon.ico",
+    "48": "icons/favicon.ico",
+    "128": "icons/favicon.ico"
+  },
+  "permissions": ["activeTab", "clipboardWrite"],
+  "host_permissions": ["http://localhost:5000/"]
+}
