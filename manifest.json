@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "URL Shortener",
+  "version": "1.0",
+  "description": "A simple URL shortening extension",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "clipboardWrite"],
+  "host_permissions": ["http://localhost:5000/"]
+}

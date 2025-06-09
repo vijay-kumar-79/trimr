@@ -1,0 +1,44 @@
+body {
+  width: 300px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 5px 0 15px;
+  padding: 8px;
+  width: calc(100% - 16px);
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.result1 {
+  word-break: break-all;
+  margin-top: 10px;
+  font-weight: bold;
+  background-color: rgba(128, 128, 128, 0.215);
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+  padding-right: 20px;
+}
+
+#details {
+  color: red;
+  margin-top: 5px;
+}
