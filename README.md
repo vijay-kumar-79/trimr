@@ -1,21 +1,46 @@
-# Trimr
-An Url Shortner Extension for chromium based browsers
+# Trimr - URL Shortener Extension  
 
-## How to install this Extension
+![Demo Video](https://drive.google.com/file/d/1lUZyXMsSRE2FsEVL20uqNLAW0moyTOCS/view?usp=sharing)  
 
-### Download the extension
-Download the zip file from [releases](https://github.com/vijay-kumar-79/trimr/releases/tag/trimr_v1) page
+A lightweight Chromium-based browser extension that shortens long URLs with custom alias support.
 
-### Load an unpacked extension
-To load an unpacked extension in developer mode:
+## Features ✨  
+- Generate concise, shareable URLs instantly  
+- Custom alias support for personalized short links  
+- Fast redirection with minimal overhead  
+- Clean, intuitive popup interface  
+- Manifest V3 compliant  
 
-1. Go to the Extensions page by entering chrome://extensions in a new tab. (By design chrome:// URLs are not linkable.)
-* Alternatively, click the Extensions menu puzzle button and select Manage Extensions at the bottom of the menu.
-* Or, click the Chrome menu, hover over More Tools, then select Extensions.
+## Installation  
 
-2. Enable Developer Mode by clicking the toggle switch next to Developer mode.
+### Method 1: Load Unpacked Extension  
+1. Download the [latest release](https://github.com/vijay-kumar-79/trimr/releases/tag/trimr_v1)  
+2. Unzip the downloaded file  
+3. Load in Chrome/Edge:  
+   - Navigate to `chrome://extensions`  
+   - Enable **Developer Mode** (top-right toggle)  
+   - Click **Load Unpacked** and select the unzipped folder  
 
-3. Click the Load unpacked button and select the extension directory.
+4. Pin the extension:  
+   - Click the Extensions puzzle icon (toolbar)  
+   - Find Trimr and click the pin icon  
 
-### Pin the extension
-By default, when you load your extension locally, it will appear in the extensions menu (Puzzle). Pin your extension to the toolbar to quickly access your extension during development.
+## Technology Stack  
+- **Frontend**: JavaScript, HTML5, CSS3  
+- **Browser API**: Chrome Extensions (Manifest V3)  
+- **Backend**: Node.js, Express  
+- **Database**: MongoDB  
+- **Hosting**: Render  
+
+## Development  
+
+```bash
+# Clone repository
+git clone https://github.com/vijay-kumar-79/trimr.git
+cd trimr
+
+# Install dependencies
+npm install
+
+# Build extension
+npm run build
