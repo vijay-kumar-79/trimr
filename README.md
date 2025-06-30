@@ -1,6 +1,6 @@
 # Trimr - URL Shortener Extension  
 
-![Demo Video](https://drive.google.com/file/d/1lUZyXMsSRE2FsEVL20uqNLAW0moyTOCS/view?usp=sharing)  
+[Demo Video](https://drive.google.com/file/d/1lUZyXMsSRE2FsEVL20uqNLAW0moyTOCS/view?usp=sharing)  
 
 A lightweight Chromium-based browser extension that shortens long URLs with custom alias support.
 
